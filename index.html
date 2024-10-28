@@ -4,33 +4,59 @@
     <title id="static-title">KLXO Avoidance</title>
     <meta name="googlebot" content="index, follow, snippet" />
     <link rel="stylesheet" href="style.css" />
-    <link id="favicon" rel="icon" href="ngc.png" type="image/x-icon" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="https://github.com/misabutnotmisa/klxo/blob/main/KLXO-nobg.png"
+      type="image/x-icon"
+    />
     <script src="uv/uv.bundle.js" defer></script>
     <script src="uv/uv.config.js" defer></script>
     <script src="register-sw.js" defer></script>
     <script src="search.js" defer></script>
     <script src="index.js" defer></script>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+        margin: 0; /* Remove default margin */
+        flex-direction: column; /* Stack elements vertically */
+      }
+      .container {
+        text-align: center; /* Center text inside the container */
+      }
+    </style>
   </head>
   <body>
     <div id="particles-top"></div>
-    <h1 style="margin-top: 180px">KLXO | Avoidance</h1>
-    <h3>hawk</h3>
-    <form id="uv-form" class="search-container">
-      <input
-        id="uv-search-engine"
-        value="https://www.google.com/search?q=%s"
-        type="hidden"
+
+    <div class="container">
+      <img
+        src="https://lh3.googleusercontent.com/fife/ALs6j_GjSbvb1KzahyF1cPwXoaxh8aW3YuNZvFD9DD7HUHa_F4ie_9NDFowZl7be9z5JmgvKNPJxfn4tgb1fBOLnzZDp5RcwwpA5UDeB5N4fPkzkmrNfziMsgFj_76vCVArTheONzLKxcOps4ul0I0CWfMRsB_KUpDqo-ThiCuIObvjGKNF0ED_qwZ1UyNTHtVg7D3D0y7mrlfhMpn4A-OsgUZIQgAhYIMQ-9jcAV7CDnQ7HTU3IO93osJVCyWtyUb3laHv4ptMkgGXFHHhDLG5VeueLKYeN5XY5_D2EHbVlpplKelwtPeOY0rkslCXO_HxYL4D355AW1sKJkZVpBQlxcIMlErJvEYeX935Xym07KXZDdeI4DsO56UK0aOjYHRscfOXrz1cS8GPrcQedpu3fvarMGKj25XjcZQ6EHltmw4sdSVz8K7Qq1soCttVDALKC5k2s3wdHMPKMVJOkgivGOWR8ouxtmR_iw8DSXuau5HMuEN4awH74lNjJhCMHWy7KnwvjQjc6rCUeBCvg_9mIl_FGcg7pZOOZGdVi9hH2P9FgA0uGUu9gCApC6zlLi3pnDRDiWcYSmo8eU8mG7kW81NTyujOzdZg_PciKnGPxlyw3boylh7xcO42TL-N2C5yIyuDkynL8DFkAfW2Vng2IRiRYtiDbwAqiDyID0l6YDUPX5KqowMx-OnNMY4laztKukRsKfKZTKE3zOflivpR1SooH_3nL1oZ11Vq1XmRGAr6p1X1EG1bQWiIq1gRcfg1qLoRi7h2kIJNra7-QH8wpUF4ZDyIYlV1MrGG10lc6CHqlfriRkSD2WZn0zBSoSwZDUpnpQ0hoE9nV5pwPwTEJmPyAvbSw5Od61Z378GHvsbMGRnOU3CAth9N3ao4WQq0Taf56TAvMxwsMdFT6bJD150AHgJpTq45ZN1xEG7U9J-noUc8a6Qd2q46JVkyh9i1tAYRVZJ2S5AvBqCRs8J5Zm31dgh6Ky8f9llSS5_GwGoTOdjfZGrfmN-OYCqMh9J3Vw4lHB_EA9OIhzBpsUnxOKPdG-fO9t6t-8ZM-jO18EppSF03uLxDpNPhfSQqlZGNPGibJ4T31TSMgrp22sNegP-IMZqEXnlkPVSi6QoyG_4mIANjBxQrm5Xd9eC2MKK059V2fCNm9DrB3UWD_IkMaMo1n914Av0c7JVOufLeXYz7gvoCQqzlRYxfwOWkLDO7hSDTdco1MSJiaeNLGtJ2DJWtliRBZOUh0e9UtHDhefFTdIM3K3i1LP5tbQIBafFCjQ5iveCl1qhw-D2Nknak7hoAjiM4jUuTE7r0CEemlNbFi6Y8wTFGbHA4-HxB__EI29csVF6_BemAPzj4KHQvOWKUEU43_F2X4BQTxBqnX2j3O63bqBVFicSfCWk-lqgKqwPLDBYq1-O805gaudkeptt16YysFxRbBL2KpmKvTt5kbXgxLepMSpsycScVtk1vnrsU8ZHGaYpRBzT2k9RQ-d94o_h5jLGFqHuHVHh_wxoK4rd7db0LzGgQtXcboDHW__Bg5FQk46R7J4Ki6kKDVL_RzC-q57xl_zN2qo0gfcuGJIo0Lk6Utm7jCGxEPKpsAkqZbr_nxhrjSPjDp6b6QuFGa644zH3jdKzBuUs3FkhIyX4OsPvaM3mcMJGZtVG6iBPwr-GUCHY72LjZ14OEPOgvml_ll=w1920-h911"
+        style="height: 100px; width: 100px"
       />
-      <input
-        id="uv-address"
-        type="text"
-        placeholder="Type a URL to get started."
-      />
-    </form>
-    <div class="desc left-margin">
-      <p id="uv-error"></p>
-      <pre id="uv-error-code"></pre>
-      <button onclick="cloak()">Cloak</button>
+
+      <h1 style="margin-top: 20px">KLXO | Avoidance</h1>
+      <h3>Internet freedom like never before</h3>
+      <form id="uv-form" class="search-container">
+        <input
+          id="uv-search-engine"
+          value="https://www.google.com/search?q=%s"
+          type="hidden"
+        />
+        <input
+          id="uv-address"
+          type="text"
+          placeholder="Type a URL to get started."
+        />
+      </form>
+      <div class="desc left-margin">
+        <p id="uv-error"></p>
+        <pre id="uv-error-code"></pre>
+        <button onclick="cloak()">Cloak</button>
+      </div>
     </div>
 
     <div id="particles-bottom"></div>
