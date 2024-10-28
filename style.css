@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap");
 
 body {
-  background-color: #567;
+  background-color: rgb(167, 167, 167);
   font-family: Noto Sans;
   display: flex;
   flex-direction: column;
@@ -33,7 +33,7 @@ body {
   text-align: center;
   float: left;
   padding: 14px 14px;
-  font-size:25px;
+  font-size: 25px;
   margin-top: 5px;
   margin-right: 100px;
 }
@@ -47,7 +47,25 @@ body {
   margin-top: 150px;
   font-size: 60px;
 }
+button {
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  color: grey;
+  scale: 2;
+  font-family: Noto Sans;
+  transition: 0.5s;
+}
 
+button:hover {
+  background-color: #777777;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  scale: 2;
+  font-family: Noto Sans;
+  cursor: pointer;
+}
 .search-container {
   display: flex;
   flex-direction: row;
@@ -79,7 +97,7 @@ body {
 .footer button {
   border-radius: 20px;
   font-family: Noto Sans;
-  background-color: 2274e0;
+  background-color: 2274;
   border: none;
   color: white;
   margin-right: 10px;
@@ -89,5 +107,18 @@ body {
 
 .footer button:hover {
   cursor: pointer;
-  background-color:#165dba;
+  background-color: #165dba;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  color: #567;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
